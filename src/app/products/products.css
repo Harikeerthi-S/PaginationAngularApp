@@ -1,0 +1,79 @@
+/* Container for the table */
+.table-container {
+  padding: 20px;
+  background: #f5f7fa;
+  border-radius: 8px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Header row */
+.mat-mdc-header-row {
+  background-color: #3f51b5;
+}
+
+/* Header cells */
+.mat-mdc-header-cell {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 14px;
+}
+
+/* Table cells */
+.mat-mdc-cell {
+  padding: 14px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Row hover effect */
+.mat-mdc-row:hover {
+  background-color: #f1f5ff;
+  transition: background-color 0.2s ease;
+}
+
+/* Zebra rows */
+.mat-mdc-row:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Title column styling */
+.mat-column-title {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Price column styling */
+.mat-column-price {
+  text-align: right;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+/* Paginator styling */
+mat-paginator {
+  margin-top: 15px;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+
+  .mat-mdc-header-cell,
+  .mat-mdc-cell {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+}
